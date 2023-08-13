@@ -11,8 +11,8 @@ except Exception as custom_caption: print(f"⚠️ Custom Caption Invalid {custo
 
 # AutoCaptionBot = pyrogram.Client(
 # #    name="AutoCaptionBot", api_id=app_id, api_hash=api_hash, bot_token=bot_token)
-# AutoCaptionBot = pyrogram.Client(api_id=app_id, api_hash=api_hash, bot_token=bot_token)
-AutoCaptionBot = pyrogram.Client(session_name='my_session', api_id=app_id, api_hash=api_hash, bot_token=bot_token)
+AutoCaptionBot = pyrogram.Client(api_id=app_id, api_hash=api_hash, bot_token=bot_token)
+# AutoCaptionBot = pyrogram.Client(session_name='my_session', api_id=app_id, api_hash=api_hash, bot_token=bot_token)
 start_message = """
 <b>👋Hello {}</b>
 <b>I am an AutoCaption bot</b>
